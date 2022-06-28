@@ -1,2 +1,2 @@
 def should_live(live_neighbours):
-    return False
+    return live_neighbours != 0
