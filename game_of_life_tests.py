@@ -1,9 +1,15 @@
 import unittest
+from assertpy import assert_that
 
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)
+def should_live(live_neighbours):
+    return False
+
+
+class GameOfLifeRules(unittest.TestCase):
+    @staticmethod
+    def test_cell_with_no_live_neighbours_dies():
+        assert_that(should_live(0)).is_false()
 
 
 if __name__ == '__main__':
