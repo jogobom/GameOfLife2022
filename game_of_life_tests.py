@@ -1,9 +1,6 @@
 import unittest
 from assertpy import assert_that
-
-
-def should_live(live_neighbours):
-    return False
+from game_of_life_rules import should_live
 
 
 class GameOfLifeRules(unittest.TestCase):
