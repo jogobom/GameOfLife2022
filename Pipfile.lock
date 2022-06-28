@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f17056bf00c384972c59fdcb0bdb9f3494094f01efb5055ec3e617e4dc5a4904"
+            "sha256": "f1da81903777d64804ef8909baa204b1286336986208306aa5f2006ae5910fee"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -46,6 +46,22 @@
             ],
             "markers": "sys_platform == 'win32'",
             "version": "==0.4.5"
+        },
+        "exceptiongroup": {
+            "hashes": [
+                "sha256:6990c24f06b8d33c8065cfe43e5e8a4bfa384e0358be036af9cc60b6321bd11a",
+                "sha256:ab0a968e1ef769e55d9a596f4a89f7be9ffedbc9fdefdb77cc68cf5c33ce1035"
+            ],
+            "markers": "python_version < '3.11'",
+            "version": "==1.0.0rc8"
+        },
+        "hypothesis": {
+            "hashes": [
+                "sha256:1f605e8e50d3e29d14ac8c0bf1c53ac66f3515f3a0e09abb07bdd7a9dc4dcaaf",
+                "sha256:5b296c32a57e50555841dd742f2cd96c0b7ba1687730b0ef34b506d0f76b4a68"
+            ],
+            "index": "pypi",
+            "version": "==6.48.1"
         },
         "iniconfig": {
             "hashes": [
@@ -93,6 +109,13 @@
             ],
             "index": "pypi",
             "version": "==7.1.2"
+        },
+        "sortedcontainers": {
+            "hashes": [
+                "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88",
+                "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"
+            ],
+            "version": "==2.4.0"
         },
         "tomli": {
             "hashes": [
