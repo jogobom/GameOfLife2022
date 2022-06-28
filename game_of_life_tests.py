@@ -18,7 +18,8 @@ class GameOfLifeRules(unittest.TestCase):
 
     @staticmethod
     def test_cell_with_more_than_3_live_neighbours_lives():
-        assert_that(should_live(4)).is_false()
+        for i in range(4, 10):
+            assert_that(should_live(i)).is_false()
 
 
 if __name__ == '__main__':
