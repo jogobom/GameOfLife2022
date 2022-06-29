@@ -1,4 +1,4 @@
-# GithubExample2
+# GameOfLife2022
 
 Hi.
 
@@ -7,3 +7,5 @@ Hi.
 Run this:
 
 ```python main.py```
+
+Run tests by running pytest.
