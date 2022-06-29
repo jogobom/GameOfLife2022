@@ -14,6 +14,10 @@ class NeighbourCounting(unittest.TestCase):
         assert_that(count_neighbours(0, [False, True])).is_equal_to(1)
         assert_that(count_neighbours(0, [True, True])).is_equal_to(1)
         assert_that(count_neighbours(0, [True, False])).is_equal_to(0)
+        assert_that(count_neighbours(1, [False, False])).is_equal_to(0)
+        assert_that(count_neighbours(1, [False, True])).is_equal_to(0)
+        assert_that(count_neighbours(1, [True, True])).is_equal_to(1)
+        assert_that(count_neighbours(1, [True, False])).is_equal_to(1)
 
 
 if __name__ == '__main__':
