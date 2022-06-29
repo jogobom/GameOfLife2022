@@ -1,6 +1,6 @@
 import unittest
 from assertpy import assert_that
-from game_of_life_rules import should_live
+from rules import should_live
 from hypothesis import given
 from hypothesis.strategies import integers
 
